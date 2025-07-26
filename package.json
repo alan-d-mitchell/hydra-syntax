@@ -1,0 +1,31 @@
+{
+  "name": "hydra-syntax",
+  "displayName": "Hydra Language",
+  "description": "Syntax highlighting for the Hydra language",
+  "version": "0.0.2",
+  "publisher": "hydra-lang",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": ["Programming Languages"],
+  "contributes": {
+    "languages": [
+      {
+        "id": "hydra",
+        "aliases": ["Hydra", "hydra"],
+        "extensions": [".hydra"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "hydra",
+        "scopeName": "source.hydra",
+        "path": "./syntaxes/hydra.tmLanguage.json",
+        "embeddedLanguages": {
+          "markdown": "hydra"
+        }
+      }
+    ]
+  }
+}
