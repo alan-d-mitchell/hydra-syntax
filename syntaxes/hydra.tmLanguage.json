@@ -32,7 +32,7 @@
     "keywords": {
       "patterns": [
         {
-          "match": "\\b(let|const|fn|return|void|in|as|if|else|for|forEach|while|break|skip|include|typedef|struct|interface|None)\\b",
+          "match": "\\b(let|const|fn|return|void|in|as|if|else|for|forEach|while|break|skip|include|typedef|struct|extension|None)\\b",
           "name": "keyword.control.hydra"
         }
       ]
